@@ -26,7 +26,5 @@ jobs:
         script: |
           cd apps/apis/assessment-3800
           git pull origin main
-          git status
           npm install
           pm2 restart ecosystem.config.js --env production
-          pm2 list
