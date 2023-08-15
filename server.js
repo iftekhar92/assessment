@@ -16,7 +16,7 @@ if (process.env.NODE_ENV !== "development") {
 }
 let endpoint = "/graphql";
 if (process.env.NODE_ENV === "production") {
-  endpoint = "/university/graphql";
+  endpoint = "/assessments/graphql";
 }
 
 const app = express();
